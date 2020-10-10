@@ -2,6 +2,7 @@ import hashlib
 import base64    
 # 获取Authorization
 # 来源https://github.com/ShiJianYingxiang/origin/blob/master/fang_beike/fang_beike/spiders/ershou_viewer.py
+# url没用
 def generateAuthorization(self, url, url_parm):
   secret_key = "d5e343d453aecca8b14b2dc687c381ca"
   secret_id = "20180111_android"
